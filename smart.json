@@ -1,3 +1,9 @@
 {
-  "packages": {}
-}
+    "name": "sanitize-html",
+    "description": "Meteor smart package for sanitize-html node.js",
+    "homepage": "https://github.com/djedi23/meteor-sanitize-html",
+    "author": "Valvassori Moïse",
+    "version": "1.3.0",
+    "git": "https://github.com/djedi23/meteor-sanitize-html.git"
+} 
+

@@ -1,1 +1,1 @@
-SanitizeHtml = Npm.require('sanitize-html');
+sanitizeHtml = Npm.require('sanitize-html');
