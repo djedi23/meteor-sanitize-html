@@ -1,7 +1,8 @@
 Package.describe({
     summary: 'Sanitze HTML',
     version: '1.6.1',
-    git: 'https://github.com/djedi23/meteor-modules.git'
+    git: 'https://github.com/djedi23/meteor-sanitize-html.git',
+    name: 'djedi:sanitize-html'
 });
 
 Npm.depends({'sanitize-html': '1.6.1'});
