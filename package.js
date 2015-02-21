@@ -12,3 +12,9 @@ Package.on_use(function (api) {
     api.add_files(['sanitize-html.js'], 'server');
     api.export('sanitizeHtml', [ 'server']);
 });
+
+Package.onTest(function(api) {
+  api.use('tinytest');
+  api.use('djedi:sanitize-html');
+  api.addFiles('sanitize-html-tests.js', 'server');
+});
