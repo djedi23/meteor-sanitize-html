@@ -1,11 +1,11 @@
 Package.describe({
     summary: "Wrapper for punkave's Sanitize HTML node package",
-    version: '1.11.0',
+    version: '1.11.1',
     git: 'https://github.com/djedi23/meteor-sanitize-html.git',
     name: 'djedi:sanitize-html'
 });
 
-Npm.depends({'sanitize-html': '1.11.0'});
+Npm.depends({'sanitize-html': '1.11.1'});
 
 Package.onUse(function (api) {
     api.addFiles('sanitize-html.js', 'server');
